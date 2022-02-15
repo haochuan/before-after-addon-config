@@ -19,6 +19,9 @@
     "test": "npm-run-all lint:* test:*",
     "test:ember": "ember test"
   },
+  "dependencies": {
+    "i-should-run-after-ember-data": "link:./lib/i-should-run-after-ember-data"
+  },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
     "@embroider/compat": "^1.2.0",
@@ -60,10 +63,5 @@
   },
   "ember": {
     "edition": "octane"
-  },
-  "ember-addon": {
-    "paths": [
-      "lib/i-should-run-after-ember-data"    
-    ]
   }
 }

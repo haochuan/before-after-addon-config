@@ -1,5 +1,6 @@
 {
   "name": "i-should-run-after-ember-data",
+  "version": "0.0.1",
   "keywords": [
     "ember-addon"
   ],
