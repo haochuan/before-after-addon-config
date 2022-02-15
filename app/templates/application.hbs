@@ -1,5 +1,7 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+<h2>Addon's before/after config test in embroider build</h2>
+<ul>
+  <li>There is an in-repo addon "i-should-run-after-ember-data" used in this app, and it is defined to run after "ember-data".</li>
+  <li>In-repo addon "i-should-run-after-ember-data" extends store from ember-data, with a new function `getCustomStoreData`</li>
+  <li>The current route "foo" calls "this.store.getCustomStoreData" as the return value of model, which should be rendered below.</li>
+</ul>
 {{outlet}}

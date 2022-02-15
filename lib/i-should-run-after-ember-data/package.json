@@ -1,0 +1,11 @@
+{
+  "name": "i-should-run-after-ember-data",
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "after": [
+      "ember-data"
+    ]
+  }
+}
